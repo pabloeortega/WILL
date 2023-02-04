@@ -2,7 +2,7 @@
   Importante: 
   No modificar ni el nombre ni los argumetos que reciben las funciones, sólo deben escribir
   código dentro de las funciones ya definidas. 
-  No comentar la funcion 
+  No comentar la funcion dsds abdv 
 */
 function pluck(array, propiedad) {
   // La función llamada 'pluck' recibe como argumento un array de objetos llamado 'array' y el nombre de una
@@ -14,8 +14,10 @@ function pluck(array, propiedad) {
   // Pista: es una buena oportunidad para usar map.
 
   // Tu código acá:
+    let inv = array.map(x => x[propiedad])
+      return inv;
+  }
 
-}
 
 // No modifiques nada debajo de esta linea //
 
